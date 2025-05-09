@@ -1,0 +1,7 @@
+package entites.orders_package;
+
+public enum OrderStatus {
+    NEW, IN_PROGRESS, READY_FOR_SERVING, DELIVERED, 
+    CANCELLED, PAYMENT_PENDING, PAYMENT_FAILED, 
+    COMPLETED, RETURN_REQUESTED, RETURNED
+}
